@@ -1,7 +1,6 @@
 module.exports = {
   'extends': [
-    'eslint-config-airbnb',
-    'eslint-config-iservices/rules/iservices'
+    'eslint-config-iservices/base'
   ].map(require.resolve),
   rules: {}
 };
