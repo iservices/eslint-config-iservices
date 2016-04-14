@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iservices",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Rules configuration for eslint engine.",
   "main": "index.js",
   "scripts": {

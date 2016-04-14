@@ -29,6 +29,8 @@ module.exports = {
     'jsx-quotes': 2,
     // enforces spacing between keys and values in object literal properties
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
+    // require a space before certain keywords
+    'keyword-spacing': [2, {'before': true, 'after': true, 'overrides': {}}],
     // enforces empty lines around comments
     'lines-around-comment': 0,
     // disallow mixed 'LF' and 'CRLF' as linebreaks
@@ -89,8 +91,6 @@ module.exports = {
     'semi': [2, 'always'],
     // sort variables within the same declaration block
     'sort-vars': 0,
-    // require a space before certain keywords
-    'keyword-spacing': [2, 'always'],
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
