@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': [2, 'never'],
+    'array-bracket-spacing': 0,
     // enforce one true brace style
     'brace-style': [2, '1tbs', {'allowSingleLine': true }],
     // require camel case names
@@ -38,7 +38,7 @@ module.exports = {
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,
     // require a capital letter for constructors
-    'new-cap': [2, {'newIsCap': true}],
+    'new-cap': 0,
     // disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 0,
     // allow/disallow an empty newline after var statement
@@ -70,7 +70,7 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 0,
     // require padding inside curly braces
-    'object-curly-spacing': [2, 'always'],
+    'object-curly-spacing': 0,
     // allow just one var statement per function
     'one-var': [2, 'never'],
     // require assignment operator shorthand where possible or prohibit it entirely
